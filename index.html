@@ -1,0 +1,31 @@
+<!--
+ Copyright (c) 2018 ml5
+ 
+ This software is released under the MIT License.
+ https://opensource.org/licenses/MIT
+--><html><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Bad Mirror by amcc.io</title>
+  <script src="p5.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="ml5.min.js" type="text/javascript"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <p id="status">Loading model...</p>
+  <script src="sketch.js"></script>
+  <div id="info">
+    <button id="close" onclick="hideInfo()">info</button>
+    <div id="info-inner" class="hidden">
+      <button id="cam-toggle" onclick="toggleCam()">Toggle camera</button>
+      <div>created by <a href="https://amcc.io" target="_blank">amcc.io</a></div>
+      <div><a href="https://github.com/amcc/bad-mirror">source</a></div>
+    </div>
+  </div>
+
+
+</body></html>
